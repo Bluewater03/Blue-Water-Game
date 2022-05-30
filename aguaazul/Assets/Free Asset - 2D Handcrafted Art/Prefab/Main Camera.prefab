@@ -98,7 +98,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   FollowSpeed: 6
-  yOffset: 1.4
+  yOffset: 0.74
   target: {fileID: 0}
 --- !u!114 &1502447163539633814
 MonoBehaviour:
