@@ -67,7 +67,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1976619879797820575}
   - component: {fileID: 34054709399902600}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: arvoreExtensao (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -148,7 +148,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3165577045600276200}
   - component: {fileID: 2998648181130548870}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -197,7 +197,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1298784860598936855}
   - component: {fileID: 1298784860598936854}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: f1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -284,7 +284,7 @@ GameObject:
   - component: {fileID: 1298784861290923463}
   - component: {fileID: 1298784861290923462}
   - component: {fileID: 5342869877438460883}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: Background1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -384,7 +384,7 @@ GameObject:
   - component: {fileID: 1298784862331555779}
   - component: {fileID: 1298784862331555778}
   - component: {fileID: 806646226596180909}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: Middleground1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -486,7 +486,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8226064978486649496}
   - component: {fileID: 4949044859242625982}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: arvoreExtensao (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -567,7 +567,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4978240794550492487}
   - component: {fileID: 8915996566364684335}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: arvoreExtensao (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -648,7 +648,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1199652813016173320}
   - component: {fileID: 2728050689656175647}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: arvoreExtensao (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -663,7 +663,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3387525205438254181}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.863, y: 0.754, z: 0}
+  m_LocalPosition: {x: 0.836, y: 0.822, z: 0}
   m_LocalScale: {x: 0.6419149, y: 0.53711355, z: 0}
   m_Children: []
   m_Father: {fileID: 1298784861290923463}
@@ -729,7 +729,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8922163650420779865}
   - component: {fileID: 2579461903269002238}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: arvoreExtensao (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -810,7 +810,7 @@ GameObject:
   m_Component:
   - component: {fileID: 9174734503354414860}
   - component: {fileID: 7462208444338475784}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: arvoreExtensao (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -891,7 +891,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5458205521602646263}
   - component: {fileID: 7488314626732710711}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: arvoreExtensao (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -972,7 +972,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1031791177846649858}
   - component: {fileID: 1330229630415543422}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: arvoreExtensao (12)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1053,7 +1053,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2314070827150331153}
   - component: {fileID: 5446137748138281192}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: arvoreExtensao (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1134,7 +1134,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6592872593274662471}
   - component: {fileID: 7409531304177667542}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: arvoreExtensao (10)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1215,7 +1215,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4444071858734601292}
   - component: {fileID: 8172074291735308160}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: arvoreExtensao
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1296,7 +1296,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4202408289917952341}
   - component: {fileID: 668705320667909981}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: Shadow1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1377,7 +1377,7 @@ GameObject:
   m_Component:
   - component: {fileID: 580495758133635339}
   - component: {fileID: 4389776295830338509}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: chaoExtensao
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1392,8 +1392,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5304849668820505708}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.000043053114, y: -1.201, z: 0}
-  m_LocalScale: {x: 3.199843, y: 0.7061878, z: 0}
+  m_LocalPosition: {x: 0.000043053114, y: -1.57, z: 0}
+  m_LocalScale: {x: 3.199843, y: 1.4440048, z: 0}
   m_Children: []
   m_Father: {fileID: 1298784860598936855}
   m_RootOrder: 0
@@ -1458,7 +1458,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7977644473542359797}
   - component: {fileID: 4307463351398520145}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: arvoreExtensao (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1539,7 +1539,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3882885731297626670}
   - component: {fileID: 6431060707899969963}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: arvoreExtensao (11)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1620,7 +1620,7 @@ GameObject:
   m_Component:
   - component: {fileID: 675797042847570764}
   - component: {fileID: 1952803533929305538}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: arvoreExtensao
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1701,7 +1701,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3843759009827772095}
   - component: {fileID: 8105584604462229717}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: arvoreExtensao (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1782,7 +1782,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4582120202130288029}
   - component: {fileID: 8732548345261649413}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: tetoExtensao
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1863,7 +1863,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4220971119527758141}
   - component: {fileID: 5323997625433642100}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: arvoreExtensao (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}

@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 1627935371292230074}
   - component: {fileID: 2976478219509428182}
   - component: {fileID: 72778225194940898}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: cogumelo
   m_TagString: Untagged
   m_Icon: {fileID: 0}
