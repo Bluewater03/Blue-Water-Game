@@ -91,6 +91,14 @@ public class player : MonoBehaviour
         {
             isJumping = false;
         }
+    
+    if(collision.gameObject.tag == "espinhos")
+        {
+            SavePoint.acesso.ShowGameOver();
+            Destroy(gameObject);
+        }
+    
+    
     }
 
     void OnCollisionExit2D(Collision2D collision)
