@@ -3,10 +3,29 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+/*
+
+A função deste script no projeto é atribuir elementos ao personagem, como movimentação, verificar se ele encostou em algo que possa mata-lo e demais componentes, além de configurar os sprites de animação do jeito correto.
+
+Métodos deste Script:
+
+void Start();
+void Update();
+void Move();
+void Jump();
+void OnCollisionEnter2D();
+void OnCollisionExit2D();
+
+GameObject atribuido:
+
+Player.
+
+*/
+
 // Classe criada junto do arquivo C# e deve conter restritamente o nome do arquivo.
 public class player : MonoBehaviour
 {
-    // Variáveis declaras para posteriormente serem utilizadas em métodos e o prefixo "public" indica que poderá ser editada na interface do unity e o prefixo "private" indica que está variável só poderá ser acessada no script, variáveis do tipo float são variáveis que aceitam valores decimais, a vairável bool significa que é uma variável que trabalha com true or false, e as variáveis RigidBody 2D e Animator são componentes do Unity.
+    // Variáveis declaradas para posteriormente serem utilizadas em métodos e o prefixo "public" indica que poderá ser editada na interface do unity e o prefixo "private" indica que está variável só poderá ser acessada no script, variáveis do tipo float são variáveis que aceitam valores decimais, a vairável bool significa que é uma variável que trabalha com true or false, e as variáveis RigidBody 2D e Animator são componentes do Unity.
     public float Speed;
     public float jumpForce;
     private Rigidbody2D body;
@@ -102,6 +121,7 @@ public class player : MonoBehaviour
     
     if(collision.gameObject.tag == "espinhos")
         {
+            // Método criado na classe SavePoint. 
             SavePoint.acesso.ShowGameOver();
             Destroy(gameObject);
         }

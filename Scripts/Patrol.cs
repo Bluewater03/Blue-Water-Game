@@ -27,10 +27,10 @@ void Update()
     // Sintaxe que configura a detecção do solo com o "GameObject" a que este script for anexado.
     RaycastHit2D groundinfo = Physics2D.Raycast (groundDetection.position, Vector2.down, 1f, layer_mask);
     
-    // A cascata de condição abaixo vericifa se a colisão com o solo for falsa, caso a condição seja atendida ele executa outro if.
+    // A cascata de condição abaixo verifica se a colisão com o solo for falsa, caso a condição seja atendida ele executa outro if.
     if(groundinfo.collider == false){
        
-        // A cascata de condição abaixo verifica se o "GameObject" está movenco-se positivamente no eixo X, caso a condição seja atendida, o "GameObject" irá girar em 180 graus. 
+        // A cascata de condição abaixo verifica se o "GameObject" está movendo-se positivamente no eixo X, caso a condição seja atendida, o "GameObject" irá girar em 180 graus. 
         if(MovingRight == true){
            transform.eulerAngles = new Vector3(0, -180, 0);
            MovingRight = false;

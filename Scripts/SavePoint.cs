@@ -4,13 +4,26 @@ using System.Collections.Generic;
 using UnityEngine;
 
 // Bibliotecas do Unity que habilitam a edição de "User Interface" e "Scene Management".
-using UnityEngine.UI; // Sem isso a inteface nao funciona.
-using UnityEngine.SceneManagement; // Bliblioteca pra gereniar a cena.
+using UnityEngine.UI; // Sem isso a interface nao funciona.
+using UnityEngine.SceneManagement; // Bliblioteca pra gerenciar a cena.
+
+/*
+
+A função deste script no projeto receber a pontuação extraída dos objetos coletáveis, exibir a tela de game over e permitir que o personagem possa reiniciar a fase caso morra, além de ouras funções do User Interface.
+
+Métodos deste script:
+
+void Start();
+public void atualizaPontosText();
+public void ShowGameOver();
+public void Restartgame();
+
+*/
 
 // Classe criada junto do arquivo C# e deve conter restritamente o nome do arquivo.
 public class SavePoint : MonoBehaviour
 {
-    // Vairiáveis públicas, a variável "int" significa que aceita apenas valores inteiros, e a variável de tipo "text" informa uma variável que vai interagir com o elemento texto do UI.
+    // Variáveis públicas, a variável "int" significa que aceita apenas valores inteiros, e a variável de tipo "text" informa uma variável que vai interagir com o elemento texto do UI.
     public int totalPontos;
     public Text contador;
     
@@ -32,7 +45,7 @@ public class SavePoint : MonoBehaviour
     public void atualizaPontosText() => contador.text = totalPontos.
     ToString();
 
-    // O método abaixo exibe a tela de game over quando um "GameObject" com tag "Player" for destruído.
+    // O método abaixo exibe a tela de game over. É invocado na classe Player quando o personagem Player toca em algum objeto cuja tag está seta para "espinhos". Ver classe player.
     public void ShowGameOver()
     {
         gameOver.SetActive(true);
