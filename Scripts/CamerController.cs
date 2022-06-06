@@ -3,6 +3,21 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+/*
+
+A função deste script no projeto é controlar a câmera de forma automática.
+
+Métodos deste Script:
+
+void Start();
+void Update();
+
+GameObject atribuido:
+
+Player.
+
+*/
+
 // Classe criada junto do arquivo C# e deve conter restritamente o nome do arquivo.
 public class CamerController : MonoBehaviour {
     

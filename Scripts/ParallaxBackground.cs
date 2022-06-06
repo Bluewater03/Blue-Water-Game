@@ -3,6 +3,22 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+/*
+
+A função deste script no projeto é atribuir o efeito parallax à câmada plano de fundo localizada no Tilepalet.
+
+Métodos deste Script:
+
+void Start();
+void SetLayers();
+void Move();
+
+GameObject atribuido:
+
+Tilemap, Tilepallet, Layer Background.
+
+*/
+
 // Classe criada junto do arquivo C# e deve conter restritamente o nome do arquivo.
 public class ParallaxBackground : MonoBehaviour
 {

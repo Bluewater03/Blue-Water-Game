@@ -3,6 +3,20 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+/*
+
+A função deste script é fazer com que a câmera siga o "GameObject" com o codenome de Player.
+
+Métodos deste Script:
+
+void Update();
+
+GameObject atribuido:
+
+Player
+
+*/
+
 // Classe criada junto do arquivo C# e deve conter restritamente o nome do arquivo.
 public class cameraFollow : MonoBehaviour
 {

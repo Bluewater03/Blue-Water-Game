@@ -3,6 +3,21 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+/*
+
+A função deste script no projeto é atribuir o efeito Parallax ao componente MainCamera na interface do Unity.
+
+Métodos deste Script:
+
+void Start();
+void Update();
+
+GameObject atribuido:
+
+MainCamera.
+
+*/
+
 // Classe criada junto do arquivo C# e deve conter restritamente o nome do arquivo.
 public class ParallaxCamera : MonoBehaviour
 

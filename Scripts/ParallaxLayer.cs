@@ -3,6 +3,20 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+/*
+
+A função deste script no projeto é atribuir a função de parallax nas câmadas do Tilepallet para mover o plano de fundo.
+
+Métodos deste Script:
+
+public void move(float delta)
+
+GameObject atribuido:
+
+Tilemap, Tilepallet, Layers.
+
+*/
+
 // Classe criada junto do arquivo C# e deve conter restritamente o nome do arquivo.
 public class ParallaxLayer : MonoBehaviour
  {

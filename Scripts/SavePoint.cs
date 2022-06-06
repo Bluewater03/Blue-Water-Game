@@ -18,6 +18,10 @@ public void atualizaPontosText();
 public void ShowGameOver();
 public void Restartgame();
 
+GameObject atribuido:
+
+Canva.
+
 */
 
 // Classe criada junto do arquivo C# e deve conter restritamente o nome do arquivo.

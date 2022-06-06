@@ -3,6 +3,21 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+/*
+
+A função deste script é movimentar automaticamente dentro de um espaço limitado um "GameObject" com o codinme de npc de forma automática, assim como as demais ações que este npc irá tomar.
+
+Métodos deste Script:
+
+void Update();
+
+GameObject atribuido:
+
+Lenhador;
+Guarda;
+
+*/
+
 // Classe criada junto do arquivo C# e deve conter restritamente o nome do arquivo.
 public class Patrol : MonoBehaviour
 {
