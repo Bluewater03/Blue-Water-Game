@@ -6,7 +6,7 @@ using UnityEngine;
 // Classe criada junto do arquivo C# e deve conter restritamente o nome do arquivo.
 public class player : MonoBehaviour
 {
-    //Variáveis declaras para posteriormente serem utilizadas em métodos e o prefixo "public" indica que poderá ser editada na interface do unity e o prefixo "private" indica que está variável só poderá ser acessada no script, variáveis do tipo float são variáveis que aceitam valores decimais, a vairável bool significa que é uma variável que trabalha com true or false, e as variáveis RigidBody 2D e Animator são componentes do Unity.
+    // Variáveis declaras para posteriormente serem utilizadas em métodos e o prefixo "public" indica que poderá ser editada na interface do unity e o prefixo "private" indica que está variável só poderá ser acessada no script, variáveis do tipo float são variáveis que aceitam valores decimais, a vairável bool significa que é uma variável que trabalha com true or false, e as variáveis RigidBody 2D e Animator são componentes do Unity.
     public float Speed;
     public float jumpForce;
     private Rigidbody2D body;
