@@ -11,6 +11,7 @@ public class SavePoint : MonoBehaviour
     public Text contador;
     
     public GameObject gameOver;
+    public GameObject vitoria;
     
     public static SavePoint acesso;
 
@@ -28,9 +29,24 @@ public class SavePoint : MonoBehaviour
         gameOver.SetActive(true);
     }
 
+    public void ShowVitoria()
+    {
+        vitoria.SetActive(true);
+    }
+   
    public void RestartGame(string level)
    {
      SceneManager.LoadScene(level);
    }
 
+   public void QuitGame()
+   {
+    Debug.Log("QUIT!");
+    Application.Quit();
+   }
+
+   public void voltarMenu()
+ {
+    SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);
+ }
 }

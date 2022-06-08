@@ -19,6 +19,7 @@ public class player : MonoBehaviour
     {
         body = GetComponent<Rigidbody2D>();
         anime = GetComponent<Animator>();
+        
     }
 
     // Update is called once per frame
@@ -98,6 +99,11 @@ public class player : MonoBehaviour
             Destroy(gameObject);
         }
     
+    if(collision.gameObject.tag == "vitoria")
+        {
+            SavePoint.acesso.ShowVitoria();
+            Destroy(gameObject);
+        }
     
     }
 
