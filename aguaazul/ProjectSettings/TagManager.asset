@@ -6,6 +6,9 @@ TagManager:
   tags:
   - espinhos
   - vitoria
+  - damage
+  - heal
+  - morte
   layers:
   - Default
   - TransparentFX

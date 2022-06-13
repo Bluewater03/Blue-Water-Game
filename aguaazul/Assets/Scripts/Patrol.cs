@@ -16,7 +16,7 @@ void Update()
     
      int layer_mask = LayerMask.GetMask ("chaoInimigo");
 
-    RaycastHit2D groundinfo = Physics2D.Raycast (groundDetection.position, Vector2.down, 1f, layer_mask);
+    RaycastHit2D groundinfo = Physics2D.Raycast (groundDetection.position, Vector2.down, 2f, layer_mask);
     
     if(groundinfo.collider == false){
        

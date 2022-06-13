@@ -92,20 +92,35 @@ public class player : MonoBehaviour
         {
             isJumping = false;
         }
-    
-    if(collision.gameObject.tag == "espinhos")
+
+        if(collision.gameObject.tag == "damage")
         {
-            SavePoint.acesso.ShowGameOver();
-            Destroy(gameObject);
+            healthController.acesso.TakeDamage();
+            
+            if (healthController.acesso.Health == 0){
+                
+                SavePoint.acesso.ShowGameOver();
+                Destroy(gameObject);
+            }
+        }
+        if(collision.gameObject.tag == "heal")
+        {
+            healthController.acesso.Heal();
         }
     
-    if(collision.gameObject.tag == "vitoria")
+        if(collision.gameObject.tag == "vitoria")
         {
             SavePoint.acesso.ShowVitoria();
             Destroy(gameObject);
         }
     
-    }
+        if(collision.gameObject.tag == "morte")
+        {
+            SavePoint.acesso.ShowGameOver();
+            Destroy(gameObject);
+        }
+      }
+    
 
     void OnCollisionExit2D(Collision2D collision)
     {
