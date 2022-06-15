@@ -9,6 +9,8 @@ TagManager:
   - damage
   - heal
   - morte
+  - checkpoint
+  - GM
   layers:
   - Default
   - TransparentFX

@@ -9,6 +9,6 @@ EditorBuildSettings:
     path: Assets/Scenes/Menu.unity
     guid: a90597df33c09e14cb4eb7fdad3308eb
   - enabled: 1
-    path: Assets/Scenes/aguaazul.unity
+    path: Assets/Scenes/fase1.unity
     guid: 015dd80a4b0992a4586629d95b1a11a4
   m_configObjects: {}
