@@ -11,6 +11,7 @@ TagManager:
   - morte
   - checkpoint
   - GM
+  - porta
   layers:
   - Default
   - TransparentFX
@@ -22,7 +23,7 @@ TagManager:
   - 
   - ground
   - chaoInimigo
-  - 
+  - ropeLayerMask
   - 
   - 
   - 

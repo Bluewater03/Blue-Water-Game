@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class player : MonoBehaviour
 {
@@ -119,6 +120,12 @@ public class player : MonoBehaviour
             SavePoint.acesso.ShowGameOver();
             Destroy(gameObject);
         }
+      
+      if(collision.gameObject.tag == "porta")
+        {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        }
+      
       }
     
 

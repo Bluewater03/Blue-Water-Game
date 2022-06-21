@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-using UnityEngine.UI; //sem isso a inteface nao funciona
+using UnityEngine.UI;              //sem isso a inteface nao funciona
 using UnityEngine.SceneManagement; //bliblioteca pra gereniar a cena
 
 public class SavePoint : MonoBehaviour
@@ -49,4 +49,9 @@ public class SavePoint : MonoBehaviour
  {
     SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);
  }
+
+public void proximaFase()
+{
+   SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1); 
+}
 }
