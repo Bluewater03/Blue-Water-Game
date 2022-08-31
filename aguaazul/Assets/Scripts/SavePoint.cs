@@ -36,7 +36,7 @@ public class SavePoint : MonoBehaviour
    
    public void RestartGame(string level)
    {
-     SceneManager.LoadScene(level);
+     Application.LoadLevel(Application.loadedLevel);
    }
 
    public void QuitGame()
