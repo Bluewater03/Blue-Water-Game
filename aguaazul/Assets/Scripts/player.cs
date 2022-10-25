@@ -35,7 +35,7 @@ public class player : MonoBehaviour
     {
         //O Input serve para detectar teclas e definir valores para elas
         Vector3 movement = new Vector3(Input.GetAxis("Horizontal"), 0f, 0f);
-        // transform.position s� funciona com Vector3
+        // transform.position so funciona com Vector3
         
         transform.position += movement * Time.deltaTime * Speed;
 
@@ -65,21 +65,9 @@ public class player : MonoBehaviour
             {
                 //ativa a op��o de pular duas vezes
                 body.AddForce(new Vector2(0f, jumpForce), ForceMode2D.Impulse);
-                doubleJump = true;
+                
             }   
-            else
-            {
-                     
-           if (doubleJump)
-                {
-                    //Impete o personagem de pular mais de duas vezes
-                    body.AddForce(new Vector2(0f, jumpForce * 1f), ForceMode2D.Impulse);
-                    doubleJump = false;
-                   
-                }
-           
-        
-            }
+            
         }
 
     }
